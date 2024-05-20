@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+/*styla header*/
+.topnav{
+
+    background-color: rgb(58, 169, 169);
+    overflow:visible;
+    height: 120px;
+}
+header h1{
+    text-shadow: 3px 2px;
+  text-align: center;
+    font-size: 40px;
+    padding-top: 20px;
+    letter-spacing: 2px;
+    padding-bottom: 15px;
+}
+
+
+.container {
+    padding: 50px;
+    background-color: rgb(165, 201, 201);
+}
+
+h2 {
+    margin-top: 30px;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+form {
+    border: 3px solid #070606;
+    background-color: #f1f1f1;   
+}
+
+form .text{
+    padding-left: 20px;
+    font-size: 20px;
+}
+.form{
+    padding:20px
+}
+
+
+input[type=text], input[type=password], input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+.loginbutton{
+    background-color: #514f4f;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  .loginbutton:hover{
+    background-color: rgb(58, 169, 169);
+    color:black
+    
+  }
+.error{
+color:rgb(241, 39, 39);
+font-size: 20px;
+padding-bottom: 30px;
+padding-top: 10px;
+  }
+
+
+  
+/*footer*/
+footer{
+    background-color: rgb(165, 201, 201);
+}
+
+footer p{
+    text-align: center;
+    font-size: larger;
+    padding-bottom: 20px;
+}
+
+
+
+
+/* styla header i admin sida med under sidor*/
+#myLinks{
+    text-align: center;
+}
+#myLinks a{
+    text-decoration: none;
+    color:black;
+    padding:20px 
+}
+#myLinks a:hover{
+    font-size: 130%;
+    font-family: monospace;
+}
+
+.meal {
+    /*background-color: #d56a27;*/
+    background-color: #514f4f;
+    color: white;
+    padding: 8px 10px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+}
+.mealupdate{
+    background-color: #514f4f;
+    color: white;
+    padding: 8px 10px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+}
+.order{
+    background-color: #514f4f;
+    color: white;
+    padding: 8px 10px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 15%;
+}
+li{
+    padding-top: 10px;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+li:hover{
+    font-size: 120%;
+}
+
+
+@media screen and (max-width: 700px){   
+    .mealupdate {
+       width: 100%;
+    }
+    .meal{
+        width: 100%;
+    }
+    }
