@@ -1,10 +1,8 @@
 "use strict";
 
 window.onload = init;
-//let url = "http://localhost/projekt_dt173g/php_api/meals/read.php";
-//let urlorder = "http://localhost/projekt_dt173g/php_api/meals/readorder.php";
-let url = "http://studenter.miun.se/~naha2204/dt173g/projekt_dt173g/php_api/meals/read.php";
-let urlorder = "http://studenter.miun.se/~naha2204/dt173g/projekt_dt173g/php_api/meals/readorder.php";
+let url = "https://studenter.miun.se/~naha2204/dt173g/projekt_dt173g/php_api/meals/read.php";
+let urlorder = "https://studenter.miun.se/~naha2204/dt173g/projekt_dt173g/php_api/meals/readorder.php";
 const meal_nameinput =document.getElementById("meal_name");
 const meal_ingredientinput =document.getElementById("meal_ingredient");
 const priceinput =document.getElementById("price");
